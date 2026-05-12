@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* =========================
+   General Page Style
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================
+   Container
+========================= */
+.container {
+    width: 60%;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   Headings
+========================= */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* =========================
+   Form Elements
+========================= */
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+button {
+    background: #0078d7;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005fa3;
+}
+
+/* =========================
+   Footer
+========================= */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background: #222;
+    color: #fff;
+}
